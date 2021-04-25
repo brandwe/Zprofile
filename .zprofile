@@ -1,4 +1,4 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
+
 
 #   Set Paths
 
@@ -8,6 +8,7 @@ export EDITOR=/usr/bin/vim
 PATH=${PATH}:~/bin
 PATH=${PATH}:/usr/local/bin
 PATH=${PATH}:/usr/local/sbin
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ##################
 ### MY ALIASES ###
