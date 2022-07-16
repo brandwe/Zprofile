@@ -8,6 +8,8 @@ export EDITOR=/usr/bin/vim
 PATH=${PATH}:~/bin
 PATH=${PATH}:/usr/local/bin
 PATH=${PATH}:/usr/local/sbin
+PATH=${PATH}:/Users/brandon/Library/Python/3.8/bin
+PATH=${PATH}:/opt/anaconda3/bin
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ##################
